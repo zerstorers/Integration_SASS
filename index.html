@@ -15,11 +15,11 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
         <div class="div">
-            <header class="bg-dark">
+            <header>
                 <nav class="navbar navbar-expand-lg">
-                    <a class="navbar-brand" href="#"><img src="brand-white.png" alt="" srcset=""></a>
+                    <a class="navbar-brand" href="#"><img src="brand-white.png" class="w-100 logo" alt="" srcset=""></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav mr-auto ">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
@@ -42,283 +42,302 @@
                             </li>
                         </ul>
                         <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <input class="form-control mr-sm-5" type="search" placeholder="Search" aria-label="Search">
                         </form>
-                        <i class="fas fa-bell"></i>
-                        <i class="fas fa-meh-rolling-eyes"></i>
+                        <i class="fas fa-bell "></i>
+                        <i class="fas fa-meh-rolling-eyes px-3"></i>
                     </div>
                 </nav>
             </header>
-            <div class="row">
+            <main>
+                <div class="row">
 
-                <!-- Page perso -->
-                <div class="col-12 col-lg-2">
-                    <div class="row">
-                        <!-- Page perso -->
-                        <div class="col-12 col-md-4 col-lg-12 block">
-                            <div class="card">
-                                <img src="https://picsum.photos/200/180" alt="">
-                                <i class="fas fa-meh-rolling-eyes"></i>
-                                <div class="card-body">
-                                    <h5 class="card-title">Dave Gamache</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                    <div class="d-flex">
-                                        <div class="perso-friends">
-                                            <a href="#" class="card-link">Friends</a>
-                                            <p>12</p>
-                                        </div>
-                                        <div class="perso-enemies">
-                                            <a href="#" class="card-link">Enemies</a>
-                                            <p>1</p>
+                    <!-- Page perso -->
+                    <div class="col-12 col-lg-3">
+                        <div class="row">
+                            <!-- Page perso -->
+                            <div class="col-12 col-md-4 col-lg-12 block">
+                                <div class="card text-center">
+                                    <img src="https://picsum.photos/200/180" alt="">
+                                    <i class="fas fa-meh-rolling-eyes photo_dave"></i>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Dave Gamache</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <div class="d-flex justify-content-center">
+                                            <div class="perso-friends pr-3">
+                                                <a href="#" class="card-link">Friends</a>
+                                                <p>12</p>
+                                            </div>
+                                            <div class="perso-enemies pl-3 border-left">
+                                                <a href="#" class="card-link">Enemies</a>
+                                                <p>1</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- About -->
-                        <div class="col-12 col-md-4 col-lg-12 block">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">About <a href="#">Edit</a></h5>
-                                    <div class="d-flex">
-                                        <i class="far fa-calendar-alt"></i>
-                                        <p class="card-text">Some quick <a href="#">'s content.</a></p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <i class="fas fa-user-friends"></i>
-                                        <p class="card-text">Some quick <a href="#">'s content.</a></p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <i class="fas fa-cat"></i>
-                                        <p class="card-text">Some quick <a href="#">'s content.</a></p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <i class="fas fa-home"></i>
-                                        <p class="card-text">Some quick <a href="#">'s content.</a></p>
-                                    </div>
-                                    <div class="d-flex">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        <p class="card-text">Some quick <a href="#">'s content.</a></p>
+                            <!-- About -->
+                            <div class="col-12 col-md-4 col-lg-12 block">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">About <a href="#">Edit</a></h5>
+                                        <div class="d-flex">
+                                            <i class="far fa-calendar-alt logo_about"></i>
+                                            <p class="card-text">Some quick <a href="#">'s content.</a></p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-user-friends logo_about"></i>
+                                            <p class="card-text">Some quick <a href="#">'s content.</a></p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-cat logo_about"></i>
+                                            <p class="card-text">Some quick <a href="#">'s content.</a></p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-home logo_about"></i>
+                                            <p class="card-text">Some quick <a href="#">'s content.</a></p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-map-marker-alt logo_about"></i>
+                                            <p class="card-text">Some quick <a href="#">'s content.</a></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- Photo -->
-                        <div class="col-12 col-md-4 col-lg-12 block">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Card title <a href="#">Edit</a></h5>
-                                    <div class="images">
-                                        <div class="d-flex"><img src="https://picsum.photos/200/200" alt=""
-                                                class="img-fluid"><img src="https://picsum.photos/200/200" alt=""
-                                                class="img-fluid"></div>
-                                        <div class="d-flex"><img src="https://picsum.photos/200/200" alt=""
-                                                class="img-fluid"><img src="https://picsum.photos/200/200" alt=""
-                                                class="img-fluid"></div>
-                                        <div class="d-flex"><img src="https://picsum.photos/200/200" alt=""
-                                                class="img-fluid"><img src="https://picsum.photos/200/200" alt=""
-                                                class="img-fluid"></div>
+                            <!-- Photo -->
+                            <div class="col-12 col-md-4 col-lg-12 block">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title <a href="#">Edit</a></h5>
+                                        <div class="images">
+                                            <div class="d-flex"><img src="https://picsum.photos/200/200" alt=""
+                                                    class="img-fluid"><img src="https://picsum.photos/200/200" alt=""
+                                                    class="img-fluid"></div>
+                                            <div class="d-flex"><img src="https://picsum.photos/200/200" alt=""
+                                                    class="img-fluid"><img src="https://picsum.photos/200/200" alt=""
+                                                    class="img-fluid"></div>
+                                            <div class="d-flex"><img src="https://picsum.photos/200/200" alt=""
+                                                    class="img-fluid"><img src="https://picsum.photos/200/200" alt=""
+                                                    class="img-fluid"></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Blog -->
-                <div class="col-12 col-lg-8">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" placeholder="Recipient's username"
-                                    aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <div class="input-group-append">
-                                    <span class="input-group-text" id="basic-addon2"><i
-                                            class="fas fa-camera-retro"></i></span>
+                    <!-- Blog -->
+                    <div class="col-12 col-lg-6 main">
+                        <div class="row">
+                            <div class="col-12 p-0">
+                                <div class="input-group ">
+                                    <input type="text" class="form-control" placeholder="Message"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i
+                                                class="fas fa-camera-retro"></i></span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2">
-                                    <i class="fas fa-meh-rolling-eyes"></i>
-                                </div>
-                                <div class="col-10">
-                                    <h6>Dave Gamache</h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae
-                                        tempore? Ab, accusantium. Nihil beatae ad cupiditate voluptatum, quisquam
-                                        tempora, in aut tenetur, necessitatibus facilis velit veritatis reiciendis
-                                        impedit. Repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Blanditiis, recusandae
-                                        tempore? Ab, accusantium. Nihil beatae ad cupiditate voluptatum, quisquam
-                                        tempora, in aut tenetur, necessitatibus facilis velit veritatis reiciendis
-                                        impedit. Repellat?</p>
-                                    <div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <i class="fas fa-meh-rolling-eyes"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        <h6>Dave Gamache</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis,
+                                            recusandae
+                                            tempore? Ab, accusantium. Nihil beatae ad cupiditate voluptatum, quisquam
+                                            tempora, in aut tenetur, necessitatibus facilis velit veritatis reiciendis
+                                            impedit. Repellat? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Blanditiis, recusandae
+                                            tempore? Ab, accusantium. Nihil beatae ad cupiditate voluptatum, quisquam
+                                            tempora, in aut tenetur, necessitatibus facilis velit veritatis reiciendis
+                                            impedit. Repellat?</p>
+                                        <div>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-8">
+                                                            <img src="https://picsum.photos/500/250" alt=""
+                                                                class="w-100">
+
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <img src="https://picsum.photos/250/260" alt=""
+                                                                class="w-100">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="https://picsum.photos/250/260" alt=""
+                                                                class="w-100">
+
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <img src="https://picsum.photos/500/250" alt=""
+                                                                class="w-100">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="row">
                                             <div class="col-12">
-                                                <div class="row">
-                                                    <div class="col-8">
-                                                        <img src="https://picsum.photos/500/250" alt="" class="w-100">
-
-                                                    </div>
-                                                    <div class="col-4">
-                                                        <img src="https://picsum.photos/250/260" alt="" class="w-100">
-
-                                                    </div>
+                                                <div class="col-2"><i class="fas fa-meh-rolling-eyes"></i></div>
+                                                <div class="col-10">
+                                                    <p>
+                                                        <span class="bold">son petit nom :</span>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Error, sapiente. Corporis numquam eius blanditiis dolor id
+                                                        aliquam
+                                                        amet
+                                                        quis
+                                                        dolores quibusdam inventore maiores, repellat nihil adipisci
+                                                        magnam,
+                                                        velit
+                                                        reiciendis atque.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class="col-12">
-                                                <div class="row">
-                                                    <div class="col-4">
-                                                        <img src="https://picsum.photos/250/260" alt="" class="w-100">
+                                                <div class="col-2"><i class="fas fa-meh-rolling-eyes"></i></div>
+                                                <div class="col-10">
 
-                                                    </div>
-                                                    <div class="col-8">
-                                                        <img src="https://picsum.photos/500/250" alt="" class="w-100">
-
-                                                    </div>
+                                                    <p><span class="bold">son petit nom:</span>
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        Error, sapiente. Corporis numquam eius blanditiis dolor id
+                                                        aliquam
+                                                        amet
+                                                        quis
+                                                        dolores quibusdam inventore maiores, repellat nihil adipisci
+                                                        magnam,
+                                                        velit
+                                                        reiciendis atque.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-12">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <i class="fas fa-meh-rolling-eyes"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        <h6>titre</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quia
+                                            libero
+                                            omnis autem, aliquid dicta maiores numquam culpa, nesciunt, sit incidunt qui
+                                            quod hic obcaecati cumque cum ducimus odit. Veniam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <i class="fas fa-meh-rolling-eyes"></i>
+                                    </div>
+                                    <div class="col-10">
+                                        <h6>titre</h6>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quia
+                                            libero
+                                            omnis autem, aliquid dicta maiores numquam culpa, nesciunt, sit incidunt qui
+                                            quod hic obcaecati cumque cum ducimus odit. Veniam.</p>
+                                        <img src="https://picsum.photos/800/500" class="w-100" alt="">
+                                        <div class="row">
                                             <div class="col-2"><i class="fas fa-meh-rolling-eyes"></i></div>
-                                            <div class="col-10">
-                                                <p>
-                                                    <span class="bold">son petit nom :</span>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                    Error, sapiente. Corporis numquam eius blanditiis dolor id aliquam
-                                                    amet
-                                                    quis
-                                                    dolores quibusdam inventore maiores, repellat nihil adipisci magnam,
-                                                    velit
-                                                    reiciendis atque.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12">
-                                            <div class="col-2"><i class="fas fa-meh-rolling-eyes"></i></div>
-                                            <div class="col-10">
-
-                                                <p><span class="bold">son petit nom:</span>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                    Error, sapiente. Corporis numquam eius blanditiis dolor id aliquam
-                                                    amet
-                                                    quis
-                                                    dolores quibusdam inventore maiores, repellat nihil adipisci magnam,
-                                                    velit
-                                                    reiciendis atque.
-                                                </p>
-                                            </div>
+                                            <div class="col-10"><span class="bold">son petit nom:</span> Lorem ipsum
+                                                dolor
+                                                sit, amet consectetur adipisicing elit.
+                                                Ipsa possimus sed distinctio eos unde, ab dicta velit quod consequatur
+                                                recusandae in vel dolore esse impedit necessitatibus laboriosam ipsam
+                                                exercitationem quibusdam.Lorem ipsum dolor sit, amet consectetur
+                                                adipisicing
+                                                elit.
+                                                Ipsa possimus sed distinctio eos unde, ab dicta velit quod consequatur
+                                                recusandae in vel dolore esse impedit necessitatibus laboriosam ipsam
+                                                exercitationem quibusdam.</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2">
-                                    <i class="fas fa-meh-rolling-eyes"></i>
-                                </div>
-                                <div class="col-10">
-                                    <h6>titre</h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quia libero
-                                        omnis autem, aliquid dicta maiores numquam culpa, nesciunt, sit incidunt qui
-                                        quod hic obcaecati cumque cum ducimus odit. Veniam.</p>
+                    </div>
+
+                    <!-- Social -->
+                    <div class="col-12 col-lg-3">
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-12 block">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Card title</h6>
+                                        <img src="https://picsum.photos/200/300" class="card-img-top" alt="...">
+                                        <h6 class="card-title">Card title</h6>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up
+                                            the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-outline-primary">Buy a ticket</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-2">
-                                    <i class="fas fa-meh-rolling-eyes"></i>
+
+
+                            <!-- Card like -->
+                            <div class="col-12 col-md-4 col-lg-12 block">
+                                <div class="card">
+                                    <div class="card-body">
+
+                                        <h6>Likes - <a href="">View all</a></h6>
+                                        <div class="row">
+
+                                            <div class="col-2">
+                                                <i class="fas fa-meh-rolling-eyes"></i>
+                                                <i class="fas fa-meh-rolling-eyes"></i>
+                                            </div>
+                                            <div class="col-10">
+                                                <h6>jacob thonrton <span>@fat</span></h6>
+                                                <button type="button" class="btn btn-outline-primary"><i
+                                                        class="fas fa-user-plus"></i>follow</button>
+                                                <h6>jacob thonrton <span>@fat</span></h6>
+                                                <button type="button" class="btn btn-outline-primary"><i
+                                                        class="fas fa-user-plus"></i>follow</button>
+                                            </div>
+                                            <div class="col-12 bg-dark">
+                                                <p>blabdljekndcjdcbcdjsbjkcbjksdcbk</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-10">
-                                    <h6>titre</h6>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quia libero
-                                        omnis autem, aliquid dicta maiores numquam culpa, nesciunt, sit incidunt qui
-                                        quod hic obcaecati cumque cum ducimus odit. Veniam.</p>
-                                    <img src="https://picsum.photos/800/500" class="w-100" alt="">
-                                    <div class="row">
-                                        <div class="col-2"><i class="fas fa-meh-rolling-eyes"></i></div>
-                                        <div class="col-10"><span class="bold">son petit nom:</span> Lorem ipsum dolor
-                                            sit, amet consectetur adipisicing elit.
-                                            Ipsa possimus sed distinctio eos unde, ab dicta velit quod consequatur
-                                            recusandae in vel dolore esse impedit necessitatibus laboriosam ipsam
-                                            exercitationem quibusdam.Lorem ipsum dolor sit, amet consectetur adipisicing
-                                            elit.
-                                            Ipsa possimus sed distinctio eos unde, ab dicta velit quod consequatur
-                                            recusandae in vel dolore esse impedit necessitatibus laboriosam ipsam
-                                            exercitationem quibusdam.</div>
+                            </div>
+                            <!--  -->
+
+
+                            <div class="col-12 col-md-4 col-lg-12 block">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <p class="card-text"><i class="far fa-copyright"></i>Some quick example text .
+                                            <a href="">text</a>
+                                            <a href="">text</a> <a href="">text</a> <a href="">text</a> <a
+                                                href="">text</a>
+                                            <a href="">text</a> <a href="">text</a> <a href="">text</a></p>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Social -->
-                <div class="col-12 col-lg-2 block">
-                    <div class="row">
-                        <div class="col-12 col-md-4 col-lg-12">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h6 class="card-title">Card title</h6>
-                                    <img src="https://picsum.photos/200/300" class="card-img-top" alt="...">
-                                    <h6 class="card-title">Card title</h6>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the bulk of the card's content.</p>
-                                    <a href="#" class="btn btn-outline-primary">Buy a ticket</a>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <!-- Card like -->
-                        <div class="col-12 col-md-4 col-lg-12 block">
-                            <div class="card">
-                                <div class="card-body">
-
-                                    <h6>Likes - <a href="">View all</a></h6>
-                                    <div class="row">
-
-                                        <div class="col-2">
-                                            <i class="fas fa-meh-rolling-eyes"></i>
-                                            <i class="fas fa-meh-rolling-eyes"></i>
-                                        </div>
-                                        <div class="col-10">
-                                            <h6>jacob thonrton <span>@fat</span></h6>
-                                            <button type="button" class="btn btn-outline-primary"><i
-                                                    class="fas fa-user-plus"></i>follow</button>
-                                            <h6>jacob thonrton <span>@fat</span></h6>
-                                            <button type="button" class="btn btn-outline-primary"><i
-                                                    class="fas fa-user-plus"></i>follow</button>
-                                        </div>
-                                        <div class="col-12 bg-dark">
-                                            <p>blabdljekndcjdcbcdjsbjkcbjksdcbk</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--  -->
-
-
-                        <div class="col-12 col-md-4 col-lg-12 block">
-                            <div class="card">
-                                <div class="card-body">
-                                    <p class="card-text"><i class="far fa-copyright"></i>Some quick example text . <a href="">text</a>
-                                        <a href="">text</a> <a href="">text</a> <a href="">text</a> <a href="">text</a>
-                                        <a href="">text</a> <a href="">text</a> <a href="">text</a></p>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </main>
         </div>
     </div>
 

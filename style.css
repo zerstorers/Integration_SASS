@@ -1,3 +1,61 @@
+.container-fluid {
+  background-color: #d7e9ff; }
 
+.main {
+  background-color: white; }
+
+h5 {
+  font-weight: bold; }
+
+.card-title a {
+  text-decoration: none;
+  font-size: .7em;
+  font-weight: normal; }
+
+header {
+  background-color: #0077c7;
+  color: white; }
+  header nav a {
+    width: 10%; }
+  header nav div ul li a {
+    text-decoration: none;
+    color: white; }
+
+main, nav {
+  width: 85%;
+  margin: auto; }
+
+.block {
+  margin: 1em 0; }
+
+main div div div div div div div:nth-child(1) a {
+  text-decoration: none;
+  color: black; }
+  main div div div div div div div:nth-child(1) a:hover {
+    color: green; }
+main div div div div div div div:nth-child(2) a {
+  text-decoration: none;
+  color: black; }
+  main div div div div div div div:nth-child(2) a:hover {
+    color: red; }
+
+.photo_dave {
+  color: pink;
+  font-size: 60px;
+  position: absolute;
+  top: 38%;
+  left: 43%; }
+
+.logo_about {
+  margin-right: 3rem; }
+
+.main {
+  margin-top: 1em;
+  border: 1px solid lightgray;
+  border-radius: 3px; }
+
+.input-group {
+  padding: 1.2rem;
+  border-bottom: 1px solid lightgray; }
 
 /*# sourceMappingURL=style.css.map */
