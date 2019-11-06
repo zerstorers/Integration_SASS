@@ -8,7 +8,9 @@
 
 @mixin a ($color) {
     color: $color;
+    text-decoration: none;
     & :hover {
         color:$color;
+        text-decoration: none;
     }
 }

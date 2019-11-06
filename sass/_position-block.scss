@@ -1,8 +1,8 @@
 // Mixin
 
-@mixin large_logo {
-    color: pink;
-    font-size: 60px;
+@mixin head-logo($color, $size) {
+    color:$color;
+    font-size: $size;
 }
 
 // Global
@@ -15,6 +15,12 @@ main, nav{
 .block{
     margin: 1em 0;
 }
+.img-card-title:nth-of-type(odd){
+    margin-right: 1.2em;
+}
+.img-card-title {
+    margin-bottom: 1.2em;
+}
 
 main{
     div{
@@ -23,7 +29,7 @@ main{
                 div{
                     div{
                         div{
-                            div:nth-child(1){
+                            .perso-friends{
                                 a{
                                     text-decoration: none;
                                     color: black;
@@ -35,7 +41,7 @@ main{
                     
                             }
 
-                            div:nth-child(2){
+                            .perso-enemies{
                                 a{
                                     text-decoration: none;
                                     color: black;
@@ -53,13 +59,16 @@ main{
     }
 }
 
-.photo_dave{
-    @include large_logo;
-    position: absolute;
-    top: 38%;
-    left: 43%;
+.image-profile{
+    position: relative;
+    
 }
-
+.photo_dave{
+@include head-logo(pink,60px );
+position:absolute;
+bottom:-13%;
+left: 43%;
+}
 .logo_about{
     margin-right: 3rem;
 }
