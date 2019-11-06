@@ -3,3 +3,6 @@
 @import "header";
 @import "position-block"
 
+.left a{
+    @include a(rgb(0, 119, 199));
+}

@@ -5,3 +5,10 @@
 .main{
     background-color: white;
 }
+
+@mixin a ($color) {
+    color: $color;
+    & :hover {
+        color:$color;
+    }
+}
